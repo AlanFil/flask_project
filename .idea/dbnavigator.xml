@@ -26,7 +26,7 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="15667aab-6ab2-4092-bdd7-3d2f31464955">
-        <schema name="main" object-types="procedure, table, column, view, dataset trigger, function, index, constraint" />
+        <schema name="main" object-types="view, constraint, dataset trigger, function, column, table, index, procedure" />
       </connection>
     </loaded-nodes>
   </component>
@@ -36,10 +36,20 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="15667aab-6ab2-4092-bdd7-3d2f31464955" object-ref="schemas/main/tables/product_user" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="15667aab-6ab2-4092-bdd7-3d2f31464955" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="15667aab-6ab2-4092-bdd7-3d2f31464955" dataset="main.product_user" active-filter-id="dc1747bd-b5fe-4ec1-866f-58b7aa07492d">
+      <filter id="dc1747bd-b5fe-4ec1-866f-58b7aa07492d" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND" />
+    </filter-actions>
+    <filter-actions connection-id="15667aab-6ab2-4092-bdd7-3d2f31464955" dataset="main.product" active-filter-id="EMPTY_FILTER">
+      <filter id="67d414cc-cda0-4cf0-a241-517678e25dca" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND" />
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
